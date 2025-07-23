@@ -1,7 +1,7 @@
-FROM node:24-alpine
+FROM node:18-alpine
 
 WORKDIR /app
 
 COPY . .
 
-CMD node hello.js
+CMD ["node", "hello.js"]
